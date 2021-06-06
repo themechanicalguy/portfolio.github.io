@@ -76,6 +76,7 @@ ul.network-icon {
 .profile-col {
   padding: 20px;
 }
+/* Experience Section */
 .card {
   margin: auto;
   padding-bottom: 5px;
@@ -132,4 +133,74 @@ ul.network-icon {
 }
 .card-body {
   padding: 0.5rem;
+}
+
+/* Abilities Section */
+p.lead {
+  text-align: center;
+  color: #727878;
+}
+.skill-lists {
+  list-style: none;
+}
+#abilities ul > li .ability-score {
+  float: right;
+}
+#projects .row > div {
+  margin-bottom: 30px;
+}
+#projects figure {
+  position: relative;
+  overflow: hidden;
+}
+
+#projects figure img {
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+}
+
+.projects-section {
+  padding: 40px 180px;
+}
+/* Certification Section */
+p.lead {
+  text-align: center;
+  color: #727878;
+}
+.skill-lists {
+  list-style: none;
+}
+#abilities ul > li .ability-score {
+  float: right;
+}
+#certification .row > div {
+  margin-bottom: 30px;
+}
+#certification figure {
+  position: relative;
+  overflow: hidden;
+}
+
+#certification figure img {
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+}
+
+.certification-section {
+  padding: 40px 180px;
+}
+
+/* Footer Section */
+#contact {
+  padding-bottom: 200px;
+}
+.footer-section {
+  padding: 40px 180px;
+}
+.background-gray {
+  background: #434242;
 }
