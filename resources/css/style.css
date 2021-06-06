@@ -44,9 +44,6 @@
   transform: translate(-50%, -50%);
 }
 /* About Me Section */
-.about-me {
-  height: 100vh;
-}
 
 h2 {
   padding: 20px;
@@ -84,13 +81,55 @@ ul.network-icon {
   padding-bottom: 5px;
   border: none;
 }
-ul.network-icons {
-  display: inline;
-  list-style: none;
+.network-container {
+  text-align: center;
+}
+.network-icons {
   padding: 0;
   margin: 0;
+  display: inline-flex;
+  text-decoration: none;
+  list-style: none;
 }
-.icon-small {
-  font-size: 5px;
-  font-weight: 900;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.experience .m-2 .border,
+.experience .col.border-right {
+  border-right: solid;
+  border-color: #795548 !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.exp-section {
+  background-color: #fff;
+  padding: 75px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.border-right {
+  border-right: 1px solid #dee2e6 !important;
+}
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+.card-body {
+  padding: 0.5rem;
 }

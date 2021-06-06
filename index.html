@@ -29,6 +29,37 @@
             </div>  
         </div>
     </header>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#">Abilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#">Certifications</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!-- About Section -->
     <section class="about-me">
         <div class="container-sm">
@@ -36,7 +67,7 @@
                 <h2>Profile</h2>
             </div>
             <div class="row">
-                <div class="col-sm-4 profile-col">
+                <div class="col-sm-12 col-md-12 col-xl-4 profile-col">
                     <div class="card" style="width: 18rem;">
                         <img class="avatar avatar-circle" src="resources/img/cropped_image.png" alt="Card image cap">
                         <div class="card-body">
@@ -44,15 +75,13 @@
                           <p class="card-text text-center">System Engineer<br>Tata Consultancy Services</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="network-container">
                         <ul class="network-icons">
                             <li>
-                                <a href="mailto:sauravrath7@gmail.com">
-                                    <img src="resources/img/mail-outline.svg" class="icon-small" alt="github-icon">
-                                </a>
+                                <a href="mailto:sauravrath7@gmail.com" class="fa fa-envelope" target="_blank"></a>
                             </li>
                             <li>
-                                <a href="https://github.com/themechanicalguy" target="_blank" class="fab fa-github"></a>
+                                <a href="https://github.com/themechanicalguy"  class="fa fa-github"></a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/saurav-rath-60558415a/" target="_blank" class="fa fa-linkedin"></a>
@@ -60,19 +89,363 @@
                             <li>
                                 <a href="https://www.linkedin.com/in/saurav-rath-60558415a/" target="_blank" class="fa fa-twitter"></a>
                             </li>
+                            <li>
+                                <a href="www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-xl-8 col-md-12 col-sm-12">
                     <h3>About me</h3>
-                    <p>I am a hardworking, creative and experienced Software Engineer currently employed at TCS with more than 2 year's hands-on experience in the field of software development.I have accomplished my bachelors in Mechanical Engineering from GITA, Bhubaneswar in 2018.</p>
-                    <p>Despite a graduate in Mechanical Engineering, the passion and inclination towards software development drove me to Codession Technologies as a Software Developer trainee. It was the place where I fueled up with high zest and enthusiasm in the field of software development. Though my training provision was of one year, this period really helped me to widen my range of knowledge to gather experience through various disciplines such as teamwork, programming, software development methodologies & finally metamorphose me from a Mechanical Guy to a software guy.</p>
-                    <p>I like working in a team, you will learn faster & much more; as the saying goes; “None of us is as smart/creative as all of us”</p>  
+                    <p class="text-start">I am a hardworking, creative and experienced Software Engineer currently employed at TCS with more than 2 year's hands-on experience in the field of software development.I have accomplished my bachelors in Mechanical Engineering from GITA, Bhubaneswar in 2018.</p>
+                    <p class="text-start">Despite a graduate in Mechanical Engineering, the passion and inclination towards software development drove me to Codession Technologies as a Software Developer trainee. It was the place where I fueled up with high zest and enthusiasm in the field of software development. Though my training provision was of one year, this period really helped me to widen my range of knowledge to gather experience through various disciplines such as teamwork, programming, software development methodologies & finally metamorphose me from a Mechanical Guy to a software guy.</p>
+                    <p class="text-start">I like working in a team, you will learn faster & much more; as the saying goes; “None of us is as smart/creative as all of us”</p>  
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
+    <section id="experience" class="exp-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2>Experience</h2> 
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="row experience">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="m-2"> <span class="badge badge-pill border ">&nbsp;</span> </div>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 bg-white rounded">
+                                <div class="card-body">
+                                    <h4 class="card-title mt-0 mb-1">Tata Consultancy Services <span class="text-muted">&nbsp;(Nov 2019 – Present)</span></h4>
+                                    <h5 class="card-subtitle text-muted my-0">System Engineer</h5>
+                                    <!-- <div class="text-muted exp-meta mt-1"> Nov 2019 – Present,<span class="middot-divider"></span> <span>&nbsp;Bhubaneswar</span> </div> -->
+                                    <p class="mt-2"><strong class="text-muted ">Johnson &amp; Johnson (Client):</strong></p>
+                                    <ul>
+                                        <li>ETQ Symphony Application Upgrade</li>
+                                        <li>Created Materialized View</li>
+                                        <li>RPA - Automated Support Activity Using Ignio</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">
+                        <div class="col-auto text-center flex-column d-none d-sm-flex">
+                            <div class="m-2"> <span class="badge badge-pill border ">&nbsp;</span> </div>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>
+                            <div class="row h-50">
+                                <div class="col border-right">&nbsp;</div>
+                                <div class="col">&nbsp;</div>
+                            </div>  
+                            
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 bg-white rounded">
+                                <div class="card-body">
+                                    <h4 class="card-title exp-title mt-0 mb-1">Codession Technologies Pvt. Ltd.  <span class="text-muted mb-2">&nbsp;(Aug 2018 – Aug 2019) </span></h4>
+                                    <h5 class="card-subtitle exp-company text-muted my-0">Software Developer Trainee</h5>
+                                    <!-- <div class="text-muted exp-meta mt-1"> Aug 2018 – Aug 2019 <span class="middot-divider"></span> <span>&nbsp;Bhubaneswar</span> </div> -->
+                                    <p class="mt-2 text-muted"><strong>Client Name:</strong></p>
+                                    <ul>     
+                                        <li>Developed Creative UI</li>
+                                        <li>Developed Responsive Landing Pages</li>
+                                        <li>Developed Interactive CMS using PHP</li>
+                                        <li>Cone Database of Instagram</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="abilities" >
+            <h2>Abilities</h2>
+            <hr>
+            <h3>Skills</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li> <span class="ability-title">C Programming</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">C++</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Data Structure</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Operating Systems</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Computer Networks</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">DBMS</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">HTML5</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">CSS3</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Bootstrap Framework</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">JQuery</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">JavaScript</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Typescript</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">PHP</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">MySql</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li> <span class="ability-title">JSON</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">AJAX</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Object Orientated Programming</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">SASS / SCSS</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">MongoDB</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">ExpressJS</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Angular</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">NodeJs</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Wordpress</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">BEM</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h3>Languages</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li> <span class="ability-title">Dutch (Mother tongue)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">English (Daily use)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li> <span class="ability-title">German (Survivable)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">French (Un petit peu)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h3>Tools</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li> <span class="ability-title">FileZilla (8 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Firefox (8 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">MS Office (10+ years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Mac (5 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Notepad++ (8 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Webkit browsers (6 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Windows (10+ years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Adobe Fireworks (8 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Atlassian / Jira (3 year)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li> <span class="ability-title">Coda2 (4 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Git / Git Flow (4 year)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Internet Explore 10+ (8 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">MAMP (2 year)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">PHPStorm (2 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Sublime Text (2 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Subversion (5 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Adobe Photoshop (6 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                        <li> <span class="ability-title">Sketch (1 years)</span> <span class="ability-score">
+                        
+                                        
+                            <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star filled"></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> <span class="glyphicon glyphicon-star "></span> </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
