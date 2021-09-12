@@ -24,15 +24,27 @@ font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
 */
-
+/*-------------------------------------------------------------------*/
+/*--------------DEFAULT SETUP----------------------------------------*/
+/*---------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
+  letter-spacing: 0.9px;
 }
 
-/* Header Section */
+/*-------------------------------------------------------------------*/
+/*--------------HEADINGS----------------------------------------*/
+/*---------------------------------------------------------------------*/
+h3 {
+  font-size: 90%;
+}
+
+/*-------------------------------------------------------------------*/
+/*--------------HEADER SECTION----------------------------------------*/
+/*---------------------------------------------------------------------*/
 .header-section {
   height: 100vh;
 }
@@ -71,11 +83,14 @@ font-family: 'Open Sans Condensed', sans-serif;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* About Me Section */
+/*-------------------------------------------------------------------*/
+/*--------------About Me Section----------------------------------------*/
+/*---------------------------------------------------------------------*/
 .about-me {
   padding: 120px 0;
 }
 .about-heading-h2 {
+  padding: 20px;
   font-size: 180%;
   word-spacing: 2px;
   margin-bottom: 30px;
@@ -91,11 +106,11 @@ font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 30px;
   letter-spacing: 1px;
 } */
-.avatar-circle {
-  margin-top: 10px;
-  border-radius: 50%;
+.profile-card {
+  padding: 120px 0px;
 }
 .avatar {
+  border-radius: 50%;
   width: 270px;
   height: 270px;
   margin: 0 auto;
@@ -111,10 +126,37 @@ ul.network-icon {
   padding: 0;
   margin: 0;
 }
-.profile-col {
+/* .profile-col {
   padding: 20px;
+} */
+.description {
+  padding: 0 20px;
 }
-/* Experience Section */
+/*-------------------------------------------------------------------*/
+/*--------------Experience Section----------------------------------------*/
+/*---------------------------------------------------------------------*/
+
+.exp-section {
+  background-color: #eee;
+  padding: 100px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+.card-title {
+  font-size: 120%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card-subtitle {
+  font-size: 100%;
+}
+.duration {
+  font-size: 60%;
+}
+.tasks {
+  font-size: 90%;
+}
+
 .card {
   margin: auto;
   padding-bottom: 5px;
@@ -154,12 +196,6 @@ ul.network-icon {
 .text-center {
   text-align: center !important;
 }
-.exp-section {
-  background-color: #fff;
-  padding: 75px 0;
-  animation: intro 0.3s both;
-  animation-delay: 0.15s;
-}
 
 .border-right {
   border-right: 1px solid #dee2e6 !important;
@@ -173,25 +209,22 @@ ul.network-icon {
   padding: 0.5rem;
 }
 
-/* Abilities Section */
-p.lead {
-  text-align: center;
-  color: #727878;
+/*-------------------------------------------------------------------*/
+/*--------------Abilities Section----------------------------------------*/
+/*---------------------------------------------------------------------*/
+.abilities {
+  padding: 80px 0;
 }
-.skill-lists {
-  list-style: none;
-}
-#abilities ul > li .ability-score {
-  float: right;
-}
-#projects .row > div {
-  margin-bottom: 30px;
-}
-#projects figure {
-  position: relative;
-  overflow: hidden;
+.about-heading-h2 {
+  padding: 15px;
+  font-size: 180%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
 }
 
+/*-------------------------------------------------------------------*/
+/*--------------Projects Section----------------------------------------*/
+/*---------------------------------------------------------------------*/
 #projects figure img {
   width: 100%;
 }
@@ -200,9 +233,14 @@ img {
 }
 
 .projects-section {
-  padding: 40px 180px;
+  background-color: #eee;
+  padding: 100px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
 }
-/* Certification Section */
+/*-------------------------------------------------------------------*/
+/*--------------Certifications Section----------------------------------------*/
+/*---------------------------------------------------------------------*/
 p.lead {
   text-align: center;
   color: #727878;
@@ -232,7 +270,9 @@ img {
   padding: 40px 180px;
 }
 
-/* Footer Section */
+/*-------------------------------------------------------------------*/
+/*--------------Footer Section----------------------------------------*/
+/*---------------------------------------------------------------------*/
 #contact {
   padding-bottom: 200px;
 }
