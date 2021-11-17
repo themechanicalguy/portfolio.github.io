@@ -1,43 +1,10 @@
-/* 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-font-family: 'Lato', sans-serif;
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital@0;1&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital@0;1&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-
-
-put three shades of blue color that are going to be used
-
-
-*/
 /*-------------------------------------------------------------------*/
 /*--------------DEFAULT SETUP----------------------------------------*/
 /*---------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; bs4 does it by default */
-
-  letter-spacing: 0.9px;
+  letter-spacing: 1px;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -67,7 +34,7 @@ h2::after {
   position: absolute;
   margin: 0 auto;
   height: 3px;
-  background: #ffdc12;
+  background: #12b4ff;
   left: 0;
   right: 0;
   bottom: -10px;
