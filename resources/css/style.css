@@ -51,9 +51,6 @@ body {
 /*-------------------------------------------------------------------*/
 /*--------------HEADINGS----------------------------------------*/
 /*---------------------------------------------------------------------*/
-h3 {
-  font-size: 90%;
-}
 h2 {
   color: #333;
   text-align: center;
@@ -75,13 +72,15 @@ h2::after {
   right: 0;
   bottom: -10px;
 }
+h3 {
+  font-size: 90%;
+}
 
 /*-------------------------------------------------------------------*/
 /*--------------HEADER SECTION----------------------------------------*/
 /*---------------------------------------------------------------------*/
 .header-section {
   height: 100vh;
-
   backface-visibility: hidden;
 }
 .bg-video {
@@ -113,11 +112,10 @@ h2::after {
 .hero-text-primary {
   color: #fff;
   font-weight: 300;
-  font-size: 300%;
+  font-size: 250%;
   word-spacing: 4px;
   letter-spacing: 1px;
   text-align: center;
-
   animation-name: moveInLeft;
   animation-duration: 1s;
   /* animation-timing-function: ease-out; */
