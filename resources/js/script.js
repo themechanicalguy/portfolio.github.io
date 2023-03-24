@@ -6,3 +6,5 @@ const aboutMe = document.querySelector("#about-me");
 scrollLink.addEventListener("click", function () {
   aboutMe.scrollIntoView({ behavior: "smooth" });
 });
+
+//Event delegation page navigation
