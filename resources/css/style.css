@@ -13,6 +13,8 @@ body {
   line-height: 1.7;
   color: #777;
   /* padding: 25px; */
+  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 /*-------------------------------------------------------------------*/
@@ -286,8 +288,57 @@ ul.network-icon {
   justify-content: end;
 }
 
-.nav-link {
+/* .show {
+  display: none;
+}
+.hide {
+  display: flex;
+} */
+
+.elementToFadeInAndOut {
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Main navi */
+
+.navbar-nav li a:link,
+.navbar-nav li a:visited {
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
   font-weight: 700;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+  border-bottom: 2px solid #12b4ff;
+}
+
+.bg-light {
+  background-color: rgb(255, 255, 255, 0.9) !important;
 }
 
 /*-------------------------------------------------------------------*/
