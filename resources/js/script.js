@@ -8,6 +8,7 @@ scrollLink.addEventListener("click", function () {
   aboutMe.scrollIntoView({ behavior: "smooth" });
 });
 
+//Event delegation nav styling
 const handleHover = function (e, opacity) {
   if (e.target.classList.contains("nav-link")) {
     const link = e.target;
@@ -18,7 +19,6 @@ const handleHover = function (e, opacity) {
   }
 };
 
-//Event delegation page navigation
 nav.addEventListener("mouseover", function (e) {
   handleHover(e, 0.5);
 });
@@ -45,3 +45,27 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 });
 
 headerObserver.observe(header);
+
+//implementation of reveal element on scroll
+const allSections = document.querySelectorAll("section");
+console.log(allSections);
+
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+  console.log(entries);
+
+  if (!entry.isIntersecting) return;
+
+  entry.target.classList.remove("section--hidden");
+  observer.unobserve(entry.target);
+};
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15,
+});
+
+allSections.forEach(function (section) {
+  sectionObserver.observe(section);
+  section.classList.add("section--hidden");
+});
